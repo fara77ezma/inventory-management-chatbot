@@ -68,11 +68,11 @@ You can find it live [here](https://tour-api-04ar.onrender.com) or you can run i
    ```js
     fetch('http://localhost:3000/api/chat')
    ```
-4. Start the server:
+5. Start the server:
    ```bash
    npm start
    ```
-5. Open your chatbot interface in a browser:
+6. Open your chatbot interface in a browser:
 
    If you are using a local server, go to http://localhost:3000.
 
