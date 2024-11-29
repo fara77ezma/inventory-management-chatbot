@@ -31,6 +31,7 @@ https://github.com/user-attachments/assets/898aaa0c-5a17-4617-b05d-c964806300d6
 4. **Cloud Hosting**: Render for deploying the backend service and managing logs.
 
 ## Installation and Setup
+You can find it live [here](https://tour-api-04ar.onrender.com) or you can run it locally:
 
 ### Prerequisites
 
@@ -58,6 +59,14 @@ https://github.com/user-attachments/assets/898aaa0c-5a17-4617-b05d-c964806300d6
    ```env
     MONGO_URI=your-mongodb-connection-string
     GOOGLE_APPLICATION_CREDENTIALS=your-dialogflow-service-account-private-key
+   ```
+
+4. Change the URL in the fetch function in the app.js file to http://localhost:3000:
+    Open the public/app.js file in your code editor.
+   Locate the fetch function where the URL is defined.
+   Change the URL to :
+   ```js
+    fetch('http://localhost:3000/api/chat')
    ```
 4. Start the server:
    ```bash
