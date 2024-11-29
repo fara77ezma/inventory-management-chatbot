@@ -1,6 +1,20 @@
 # Inventory Management Chatbot
 
 A chatbot designed to help small businesses manage their inventory efficiently. The bot allows users to interact with their inventory system using natural language commands such as adding items, updating stock levels, and viewing inventory details. The project integrates Dialogflow for natural language understanding, MongoDB for data storage, and Render for cloud hosting.
+## Demo:
+
+
+
+
+
+
+
+
+https://github.com/user-attachments/assets/898aaa0c-5a17-4617-b05d-c964806300d6
+
+
+
+
 
 ## Features
 
